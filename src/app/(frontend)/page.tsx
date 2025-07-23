@@ -10,14 +10,14 @@ const features = [
   {
     title: 'Instantly Remove Backgrounds',
     description:
-      'Say goodbye to tedious editing. Our AI-powered tool automatically detects and removes backgrounds from your images in seconds. Perfect for e-commerce, marketing, and profile pics.',
+      'No more manual cutting or complex software. Our AI instantly detects and removes backgrounds—delivering clean, professional cutouts in seconds. Ideal for product photos, social media, and creative projects!',
     src: '/images/background-remover-image-1.webp',
     type: 'image',
   },
   {
-    title: 'High-Quality Results, Every Time',
+    title: 'Perfect High Quality Cutouts, Automatically',
     description:
-      'We maintain the original image quality while delivering clean, precise edges — whether it’s hair, fur, or fine details. Get professional results with zero effort.',
+      'Get sharp, clean edges—every time. Hair, fur, or complex details, our AI handles it all. Professional quality, zero work.',
     src: '/images/background-remover-image-2.jpeg',
     type: 'image',
   },
@@ -29,8 +29,8 @@ const Page = async () => {
   return (
     <>
       <HeroSection
-        title="Background Remover"
-        description="Remove backgrounds from images in seconds with our AI-powered background remover. No design skills needed!"
+        title="AI Background Remover"
+        description="Get perfectly cut-out images in seconds with AI-powered precision. No watermarks, it can Erase Background with high-quality at your fingertips!"
       >
         <RemoveBg plans={plans} />
       </HeroSection>
