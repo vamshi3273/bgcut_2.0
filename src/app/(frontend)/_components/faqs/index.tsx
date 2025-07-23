@@ -10,38 +10,38 @@ import {
 
 const faqs = [
   {
-    question: 'What is Eraseo?',
+    question: 'Which image formats are supported for background removal?',
     answer:
-      'Eraseo is an AI-powered tool that removes unwanted objects from images in seconds. Its perfect for creating clean, professional visuals without needing any design skills.',
+      'We support all major image formats including JPG, JPEG, PNG, and WebP. Once processed, your image will be available for download in PNG format—perfect for maintaining transparency.',
   },
   {
-    question: 'Do I need editing experience to use Eraseo?',
+    question: 'How can I remove the background from an image?',
     answer:
-      'Not at all! Eraseo is designed for anyone—just upload your image, click on what you want to remove, and let the AI handle the rest.',
+      'Simply upload your image and let our AI do the work! Processing usually takes just 2 to 6 seconds. Once complete, preview your result and download the background-free image—no manual editing needed.',
   },
   {
-    question: 'What types of objects can I remove?',
+    question: 'How does the image upscaler improve photo quality?',
     answer:
-      'Eraseo can remove almost anything—people, logos, clutter, props, shadows, reflections, and more. It works on a wide range of images, from product shots to portraits to landscapes.',
+      'Our AI-powered image upscaler enhances photo resolution by intelligently adding details, reducing blur, and sharpening edges. It uses deep learning to upscale images up to 2x or 4x while maintaining clarity—perfect for eCommerce, printing, and high-quality web use.',
   },
   {
-    question: 'Will the background look natural after removal?',
+    question: 'Is my uploaded image data safe and private?',
     answer:
-      'Yes. Eraseo uses advanced generative AI to intelligently fill in the removed area with matching textures and colors, making it look seamless.',
+      'Yes, your privacy is our priority. All uploaded images are automatically deleted from our servers within 24 hours. We do not store, share, or use your files for any AI training or third-party purposes.',
   },
   {
-    question: 'Can I use Eraseo on mobile devices?',
+    question: 'Do you offer free credits?',
     answer:
-      'Yes, Eraseo is fully responsive and works smoothly on both desktop and mobile browsers—no app download required.',
+      'Yes! We give you 5 free HD downloads each month to get started. Need more? You can easily purchase credits or upgrade to a subscription plan for unlimited access.',
   },
   {
-    question: 'What file formats do you support?',
-    answer: 'We currently support JPG, PNG, and WebP image uploads. More formats are coming soon',
+    question: 'Can I use the app on my phone or tablet?',
+    answer: 'Absolutely! Our web app is fully mobile-optimized. You can even add it to your home screen for quick, app-like access on your smartphone or tablet.',
   },
   {
-    question: 'Is my data and image content safe?',
+    question: 'How does the subscription and billing work?',
     answer:
-      'Yes, your data is encrypted and images are processed securely. We never use your content for training or sharing without permission. All images are deleted after some time.',
+      'We offer flexible billing—choose monthly or annual plans. You can cancel anytime from your dashboard. If you cancel an annual plan within 30 days, we’ll provide a prorated refund.',
   },
 ];
 
