@@ -36,7 +36,7 @@ const Page = async () => {
   return (
     <>
       <HeroSection
-        title="BG Cut - Remove Objects from Images"
+        title="Bg Cut - Remove Objects from Images"
         description="Quickly clean unwanted objects, people, or text from photos using AI powered removal — simple, fast, and no editing skills needed."
       >
         <EraseObjects plans={plans} />

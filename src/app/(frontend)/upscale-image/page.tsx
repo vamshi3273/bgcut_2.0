@@ -29,7 +29,7 @@ const Page = async () => {
   return (
     <>
       <HeroSection
-        title="BG Cut - AI Image Upscaler"
+        title="Bg Cut - AI Image Upscaler"
         description="Upscale images in seconds with our powerful AI enhancer — no design skills required. Get crystal-clear, high-resolution studio quality results instantly,"
       >
         <UpscaleImage plans={plans} />
