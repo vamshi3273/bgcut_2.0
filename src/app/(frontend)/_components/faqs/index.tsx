@@ -41,7 +41,7 @@ const faqs = [
   {
     question: 'How does the subscription and billing work?',
     answer:
-      'We offer flexible billing—choose monthly or annual plans. You can cancel anytime from your dashboard. If you cancel an annual plan within 30 days, we’ll provide a prorated refund.',
+      'We offer flexible billing—choose monthly or annual plans. You can cancel anytime from your dashboard. If you cancel an annual plan within 30 days, we will provide a refund.',
   },
 ];
 

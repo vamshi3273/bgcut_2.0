@@ -35,7 +35,7 @@ const menuLinks = [
         href: '/',
       },
       {
-        label: 'Upscale Image',
+        label: 'Image Upscaler',
         href: '/upscale-image',
       },
     ],

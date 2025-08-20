@@ -8,16 +8,16 @@ import UpscaleImage from '../_components/hero-section/upscale-image';
 
 const features = [
   {
-    title: 'Instantly Upscale Images',
+    title: 'Enhance and Enlarge Photos Instantly',
     description:
-      'Say goodbye to tedious editing. Our AI-powered tool automatically upscale images in seconds. Perfect for e-commerce, marketing, and profile pics.',
+      'Turn small, blurry images into sharp, high-quality photos in just seconds. Our AI technology enhances details while enlarging images, making them perfect look',
     src: '/images/upscale-image.webp',
     type: 'image',
   },
   {
-    title: 'High-Quality Results, Every Time',
+    title: 'Transform Low-Res Images into High-Quality Instantly',
     description:
-      'We maintain the original image quality while delivering clean, precise edges — whether it’s hair, fur, or fine details. Get professional results with zero effort. Get professional results with zero effort.',
+      'Give your images a professional makeover with our AI-powered upscaler. Instantly convert low-resolution photos into sharp, high-quality visuals without losing detail—perfect for e-commerce, social media, and personal use.',
     src: '/videos/upscale-video.mp4',
     type: 'video',
   },
@@ -29,8 +29,8 @@ const Page = async () => {
   return (
     <>
       <HeroSection
-        title="Upscale Image"
-        description="Upscale images in seconds with our AI-powered image upscaler. No design skills needed!"
+        title="BG Cut - AI Image Upscaler"
+        description="Upscale images in seconds with our powerful AI enhancer — no design skills required. Get crystal-clear, high-resolution studio quality results instantly,"
       >
         <UpscaleImage plans={plans} />
       </HeroSection>

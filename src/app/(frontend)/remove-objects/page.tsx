@@ -8,23 +8,23 @@ import EraseObjects from '../_components/hero-section/erase-objects';
 
 const features = [
   {
-    title: 'Effortlessly remove unwanted objects with a single click.',
+    title: 'Instantly Remove Unwanted Objects with One Click.',
     description:
-      'Eraseo uses advanced AI to automatically detect and erase distractions like people, logos, or clutter from your images. No manual masking or editing—just click and watch your image clean itself up in seconds.',
+      'Erase distractions in a click. BgCut’s AI automatically finds and removes people, text, or clutter—no complex editing needed. Just click, and get a perfect image in seconds.',
     src: '/images/background-remover-image-1.webp',
     type: 'video',
   },
   {
-    title: 'Remove Unwanted Objects to Create Minimalist Masterpieces',
+    title: 'Transform Your Shots into Minimalist Masterpieces with Easy Object Removal',
     description:
-      'Eraseo helps you turn cluttered photos into clean, focused visuals by removing distracting elements. Highlight your subject, enhance visual appeal, and embrace simplicity with AI-powered precision—perfect for modern branding and aesthetic content.',
+      'Turn cluttered photos into clean, stunning visuals with Bg Cut. Remove distractions, highlight your subject, and enhance your images with AI-powered precision. Perfect for creating sleek, professional content that stands out.',
     src: '/images/background-remover-image-2.jpeg',
     type: 'video',
   },
   {
-    title: 'Object Remover for Studio-Quality E-commerce Images',
+    title: 'Object Removal Tool for Crisp, Studio-Ready Product Shots',
     description:
-      'Instantly remove unwanted props, shadows, or reflections from product shots to create clean, distraction-free backgrounds. Eraseo gives your product photos a professional studio look—perfect for marketplaces, catalogs, and ad creatives.',
+      'Give your product photos an instant professional upgrade. With BG Cut, you can easily remove props, shadows, or reflections to create clean, distraction-free backgrounds. Achieve that perfect studio look in seconds—ideal for marketplaces, catalogs, and ads.',
     src: '/images/background-remover-image-3.jpeg',
     type: 'video',
   },
