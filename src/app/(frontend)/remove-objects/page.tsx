@@ -22,7 +22,7 @@ const features = [
     type: 'video',
   },
   {
-    title: 'Object Removal Tool for Crisp, Studio-Ready Product Shots',
+    title: 'Object Remover Tool for Crisp, Studio-Ready Product Shots',
     description:
       'Give your product photos an instant professional upgrade. With BG Cut, you can easily remove props, shadows, or reflections to create clean, distraction-free backgrounds. Achieve that perfect studio look in seconds—ideal for marketplaces, catalogs, and ads.',
     src: '/images/background-remover-image-3.jpeg',
@@ -36,8 +36,8 @@ const Page = async () => {
   return (
     <>
       <HeroSection
-        title="Remove Objects from your images"
-        description="Easily remove unwanted objects, people, or text from your photos with the power of AI—no design skills or complex tools required."
+        title="BG Cut - Remove Objects from Images"
+        description="Quickly clean unwanted objects, people, or text from photos using AI powered removal — simple, fast, and no editing skills needed."
       >
         <EraseObjects plans={plans} />
       </HeroSection>

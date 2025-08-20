@@ -54,7 +54,7 @@ const testimonials = [
   {
     text: 'I tried it right on my phone and couldn’t believe how clean the edits turned out. No app to download or anything—it just works. Seriously impressed!',
     image: 'https://randomuser.me/api/portraits/men/9.jpg',
-    name: 'Jagan Bhai',
+    name: 'Vamshi',
     role: 'SocialMedia Marketer',
   },
 ];
