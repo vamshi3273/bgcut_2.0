@@ -8,16 +8,16 @@ import RemoveBg from './_components/hero-section/remove-bg';
 
 const features = [
   {
-    title: 'Instantly Remove Backgrounds',
+    title: 'Background Cut: One-Click Remove BG for Any Image',
     description:
-      'No more manual cutting or complex software. Our AI instantly detects and removes backgrounds—delivering clean, professional cutouts in seconds. Ideal for product photos, social media, and creative projects!',
+      'Editing photos shouldn’t be hard. With our Image Background Remover, you don’t have to use difficult to use tools and spend hours working. Our Image Background Remover is AI-powered that detects, and remove bg automatically without any hassle, and provides clean cutouts that you can rely on in seconds. Whether you’re working on product photography, eCommerce, social media, or creative work. Background Cut is fast, functional, and easier than ever. No design skills needed, no software downloads, simply upload your image and let the smart AI work its magic and give the transparent image as output. Save time, get perked results and focus on creating!',
     src: '/images/background-remover-image-1.webp',
     type: 'image',
   },
   {
-    title: 'Perfect High Quality Cutouts, Automatically',
+    title: 'Automatic Background Removal for Flawless Cutouts',
     description:
-      'Get sharp, clean edges—every time. Hair, fur, or complex details, our AI handles it all. Professional quality, zero work.',
+      'With Bg Cut, you’ll never worry about messy edges or low-quality cuts anymore. Our latest AI seamlessly cut or erase background with pixel-perfect precision, leaving every hair strand, fur, each fine detail, and each shadow in place. It’s the quickest way to produce pro-level images',
     src: '/images/background-remover-image-2.jpeg',
     type: 'image',
   },
@@ -30,7 +30,7 @@ const Page = async () => {
     <>
       <HeroSection
         title="Bg Cut - AI Background Remover"
-        description="Get perfect Background cut-out images in seconds with AI-power. No watermarks & software installation, BG Cut can Erase Objects with high-quality precision at your fingertips!"
+        description="Get perfect Background Cut images in seconds with AI-power. No watermarks & software installation, BG Cut helps you to Erase Objects from photo with high-quality precision at your fingertips!"
       >
         <RemoveBg plans={plans} />
       </HeroSection>
