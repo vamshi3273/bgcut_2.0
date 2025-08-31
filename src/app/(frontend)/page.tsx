@@ -30,7 +30,7 @@ const Page = async () => {
     <>
       <HeroSection
         title="Bg Cut - AI Background Remover"
-        description="Get perfect Background Cut images in seconds with AI-power. No watermarks & software installation, BG Cut helps you to Erase bg objects from photo with high-quality precision at your fingertips!"
+        description="Get perfect Background Cut images in seconds with AI-power. No watermarks & software installation, BG Cut helps you to Erase objects from photo with high-quality precision at your fingertips!"
       >
         <RemoveBg plans={plans} />
       </HeroSection>
