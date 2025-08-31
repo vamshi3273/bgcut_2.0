@@ -10,7 +10,7 @@ const features = [
   {
     title: 'Background Cut: One-Click Remove BG for Any Image',
     description:
-      'Editing photos shouldn’t be hard. With our Image Background Remover, you don’t have to use difficult to use tools and spend hours working. Our Image Background Remover is AI-powered that detects, and remove bg automatically without any hassle, and provides clean cutouts that you can rely on in seconds. Whether you’re working on product photography, eCommerce, social media, or creative work. Background Cut is fast, functional, and easier than ever. No design skills needed, no software downloads, simply upload your image and let the smart AI work its magic and give the transparent image as output. Save time, get perked results and focus on creating!',
+      'Editing photos shouldn’t be hard. With our Image Background Remover, you don’t have to use difficult to use tools and spend hours working. Our AI-powered tool that detects, and remove bg automatically without any hassle, and provides clean cutouts that you can rely on in seconds. Whether you’re working on product photography, eCommerce, social media, or creative work. Bg Remover is fast, functional, and easier than ever. No design skills needed, no software downloads, simply upload your image and let the smart AI work its magic and give the transparent image as output. Save time, get perked results and focus on creating!',
     src: '/images/background-remover-image-1.webp',
     type: 'image',
   },
@@ -30,7 +30,7 @@ const Page = async () => {
     <>
       <HeroSection
         title="Bg Cut - AI Background Remover"
-        description="Get perfect Background Cut images in seconds with AI-power. No watermarks & software installation, BG Cut helps you to Erase Objects from photo with high-quality precision at your fingertips!"
+        description="Get perfect Background Cut images in seconds with AI-power. No watermarks & software installation, BG Cut helps you to Erase bg objects from photo with high-quality precision at your fingertips!"
       >
         <RemoveBg plans={plans} />
       </HeroSection>
