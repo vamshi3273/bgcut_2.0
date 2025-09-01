@@ -22,17 +22,28 @@ const socialLinks = [
 ];
 
 function Footer() {
-  const settings = useSettings();
+    const settings = useSettings();
 
   useEffect(() => {
-    // Prevent duplicate script injection
-    if (!document.getElementById('sharethis-script')) {
-      const script = document.createElement('script');
-      script.id = 'sharethis-script';
-      script.src =
-        'https://platform-api.sharethis.com/js/sharethis.js#property=68b5f29a5b7a352c0f780c95&product=sop';
-      script.async = true;
-      document.body.appendChild(script);
+    // Inject ShareThis script once
+    if (!document.getElementById("sharethis-script")) {
+      const sharethis = document.createElement("script");
+      sharethis.id = "sharethis-script";
+      sharethis.src =
+        "https://platform-api.sharethis.com/js/sharethis.js#property=68b5f29a5b7a352c0f780c95&product=sop";
+      sharethis.async = true;
+      document.body.appendChild(sharethis);
+    }
+
+    // Inject AdSense script once
+    if (!document.getElementById("adsense-script")) {
+      const adsense = document.createElement("script");
+      adsense.id = "adsense-script";
+      adsense.src =
+        "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1681196247196095";
+      adsense.async = true;
+      adsense.crossOrigin = "anonymous";
+      document.body.appendChild(adsense);
     }
   }, []);
 
@@ -68,13 +79,7 @@ function Footer() {
         {/* ShareThis inline buttons placeholder */}
         <div className="sharethis-inline-share-buttons mt-4"></div>
 
-        {/*  Ad block inside footer */}
-         <Script
-        async
-        strategy="afterInteractive"
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1681196247196095"
-        crossOrigin="anonymous"
-      />
+        
         <p className="text-gray text-sm md:mt-0">
           © {new Date().getFullYear()} {settings?.general?.applicationName}. All rights reserved.
         </p>
