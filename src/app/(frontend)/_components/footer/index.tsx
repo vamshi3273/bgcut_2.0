@@ -3,7 +3,7 @@
 import Logo from '@/app/admin/_components/sidebar/logo';
 import { useSettings } from '@/components/settings-provider';
 import Link from 'next/link';
-import React from 'react';
+import React, { useEffect } from 'react';
 import { FaFacebookF, FaXTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa6';
 
 const menuLinks = [
@@ -23,6 +23,19 @@ const socialLinks = [
 
 function Footer() {
   const settings = useSettings();
+
+  useEffect(() => {
+    // Prevent duplicate script injection
+    if (!document.getElementById('sharethis-script')) {
+      const script = document.createElement('script');
+      script.id = 'sharethis-script';
+      script.src =
+        'https://platform-api.sharethis.com/js/sharethis.js#property=68b5f29a5b7a352c0f780c95&product=sop';
+      script.async = true;
+      document.body.appendChild(script);
+    }
+  }, []);
+
   return (
     <footer className="from-primary/10 relative mx-auto mt-10 flex w-full flex-col items-center justify-center border-t bg-gradient-to-t to-transparent px-6 py-12 lg:py-16">
       <div className="flex flex-col items-center justify-center space-y-6 text-center">
@@ -51,6 +64,10 @@ function Footer() {
             </Link>
           ))}
         </div>
+
+        {/* ShareThis inline buttons placeholder */}
+        <div className="sharethis-inline-share-buttons mt-4"></div>
+
         <p className="text-gray text-sm md:mt-0">
           © {new Date().getFullYear()} {settings?.general?.applicationName}. All rights reserved.
         </p>
