@@ -37,7 +37,7 @@ const Page = async () => {
       </HeroSection>
 
       {/* ✅ Optimized AdSense Auto Ads */}
-      <AdSense slot="6615140083" />
+      <AdSense />
 
       <Features features={features} />
       <Testimonials />
