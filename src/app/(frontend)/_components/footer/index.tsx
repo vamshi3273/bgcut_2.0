@@ -68,6 +68,13 @@ function Footer() {
         {/* ShareThis inline buttons placeholder */}
         <div className="sharethis-inline-share-buttons mt-4"></div>
 
+        {/*  Ad block inside footer */}
+         <Script
+        async
+        strategy="afterInteractive"
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1681196247196095"
+        crossOrigin="anonymous"
+      />
         <p className="text-gray text-sm md:mt-0">
           © {new Date().getFullYear()} {settings?.general?.applicationName}. All rights reserved.
         </p>
