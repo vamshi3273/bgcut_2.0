@@ -33,6 +33,7 @@ const Header = () => {
           </div>
         </div>
       </div>
+      <meta name="google-adsense-account" content="ca-pub-1681196247196095" />
     </header>
   );
 };
