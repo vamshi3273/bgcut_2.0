@@ -3,22 +3,18 @@ import { useEffect } from "react";
 
 declare global {
   interface Window {
-    adsbygoogle?: { push: (args?: unknown) => void }[];
+    adsbygoogle: any[];
   }
 }
 
-export default function Adsense({
-  slot,
-  style = { display: "block" },
-}: {
-  slot: string;
-  style?: React.CSSProperties;
-}) {
+export default function AdSense() {
   useEffect(() => {
-    try {
-      (window.adsbygoogle = window.adsbygoogle || []).push({});
-    } catch (e) {
-      console.error("Adsense load error:", e);
+    if (typeof window !== "undefined") {
+      try {
+        (window.adsbygoogle = window.adsbygoogle || []).push({});
+      } catch (e) {
+        console.error("Adsense load error:", e);
+      }
     }
   }, []);
 

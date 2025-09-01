@@ -5,7 +5,7 @@ import HeroSection from './_components/hero-section';
 import Features from './_components/features';
 import planService from '@/server/plans/plan-service';
 import RemoveBg from './_components/hero-section/remove-bg';
-import AdSense from '@/_components/AdSense'; 
+import AdSense from './_components/AdSense'; 
 
 const features = [
   {
@@ -37,7 +37,7 @@ const Page = async () => {
       </HeroSection>
 
       {/* ✅ Optimized AdSense Auto Ads */}
-      <Adsense slot="6615140083" />
+      <AdSense slot="6615140083" />
 
       <Features features={features} />
       <Testimonials />
